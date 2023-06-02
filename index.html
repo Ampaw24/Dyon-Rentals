@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style-modal.css">
+  
+    
+    <link rel="shortcut icon" href="image/t-img/logo.png" type="image/png">
+    <title>DYON Rental</title>
+</head>
+<style>
+  
+     
+</style>
+<body class="bg-light" id="bdy">
+    <header class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="index.html">
+                    <img src="image/t-img/logo.png" alt="" width="70" height="70" class="ml-3 scale-up-bottom" /> DYON motors
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ml-5">
+                            <a class="nav-link active" aria-current="page" href="#">
+                     Home
+                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#vehicles">Vehicle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                    
+                               <button class="btn btn-success" id="s-btn">SignIn</button>
+                            
+                          </li>
+                     </ul>
+                     </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- <div class="row mt-3" id="carou"> -->
+    <div class="col">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="indi"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" id="indi"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" id="indi"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="image/caar1.jpg" class=" w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 tracking-in-expand">Flexible Car rental </h5>
+                        <p class="caco tracking-in-expand">
+                            Cancel or change most bookings for free up to 48 hours before pick-up
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="image/imm3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 tracking-in-expand">No hidden fees</h5>
+                        <p class="caco tracking-in-expand">Know your amount to be paid after every rental.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="image/img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 tracking-in-expand">Affordability</h5>
+                        <p class="caco tracking-in-expand">Select from a wide rane of strong and luxirious vehicles at affordable cost</p>
+                        <a href="">
+                            <a href="account.html">
+                                <input type="button" value="Get Started" class="btn btn-outline-success">
+                            </a>
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="row mt-2 ">
+        <div class="col col-lg-12 col-md-12 col-sm-2 icons-container">
+
+            <div class="icons scale-in-center">
+                <i class="fas fa-home"></i>
+                <div class="content">
+                    <h3>150+</h3>
+                    <p>Cars Available</p>
+                </div>
+            </div>
+
+            <div class="icons scale-in-center">
+                <i class="fa fa-address-book" aria-hidden="true"></i>
+
+                <div class="content">
+                    <h3>4770+</h3>
+                    <p>cars Rented</p>
+                </div>
+            </div>
+
+            <div class="icons scale-in-center">
+                <i class="fas fa-car"></i>
+                <div class="content">
+                    <h3>1500+</h3>
+                    <p>news cars</p>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- </div> -->
+
+        <div class="container" id="vehicles">
+            <div class="row mt-4">
+                <p class="display-6 mt-2 ml-4 mb-4">
+                    <h1 class="text-center mt-1 mb-5 display-3 fw-bold">Featured<span class="theme-text">Vehicles</span></h1>
+                    <hr class="mx-auto mb-3 w-25">
+                    <form class="d-flex se">
+                        <input class="form-control " list="datalistOptions" id="exampleDataList" placeholder=" search...">
+                        <datalist id="datalistOptions">
+        <option value="Benz">
+        <option value="Honda">
+        <option value="Toyota">
+        <option value="Los Angeles">
+        <option value="Chicago">
+      </datalist>
+    <button class="btn btn-outline-success ml-4 search" type="submit">Search  <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+                    </form>
+                </p>
+
+               
+
+    <!-- newtest -->
+    <div class="products">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="filters">
+                <ul>
+                    <li class="active" data-filter="*">All Vehicles</li>
+                    <li data-filter=".des">Featured</li>
+                    <li data-filter=".dev">Luxury Rent</li>
+                    <!-- <li data-filter=".gra">Last Minute</li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="filters-content">
+                  <div class="row grid">
+                      <div class="col-lg-4 col-md-4 all des">
+                        <div class="product-item">
+                          <a href="#"><img src="img/account.jpg" alt=""></a>
+                          <div class="down-content">
+                            <a href="#"><h4>Tittle goes here</h4></a>
+                            <h6>$18.25</h6>
+                            <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                            <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (12)</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 all dev">
+                        <div class="product-item">
+                          <a href="#"><img src="img/honda-civic-exl-2020.jpg" alt=""></a>
+                          <div class="down-content">
+                            <a href="#"><h4>Honda Civic</h4></a>
+                            <h6>$16.75</h6>
+                            <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                            <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (24)</span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-lg-4 col-md-4 all gra">
+                        <div class="product-item">
+                          <a href="#"><img src="img/honda-accord-hybrid.jpg" alt=""></a>
+                          <div class="down-content">
+                            <a href="#"><h4>Honda Accord (Hybrid)</h4></a>
+                            <h6>$32.50</h6>
+                            <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                            <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (36)</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 all gra">
+                        <div class="product-item">
+                          <a href="#"><img src="img/amga35-2021.jpg" alt=""></a>
+                          <div class="down-content">
+                            <a href="#"><h4>Benz Amg c35</h4></a>
+                            <h6>$24.60</h6>
+                            <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                            <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (48)</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 all dev">
+                        <div class="product-item">
+                          <a href="#"><img src="img/benzc43.jpg" alt=""></a>
+                          <div class="down-content">
+                            <a href="#"><h4>Benz-C43</h4></a>
+                            <h6>$18.75</h6>
+                            <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                            <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (60)</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 all des">
+                        <div class="product-item">
+                          <a href="#"><img src="img/civic2021.jpg" alt=""></a>
+                          <div class="down-content">
+                            <a href="#"><h4>Honda civic2021</h4></a>
+                            <h6>$12.50</h6>
+                            <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
+                            <ul class="stars">
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                              <li><i class="fa fa-star"></i></li>
+                            </ul>
+                            <span>Reviews (72)</span>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <ul class="pages">
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    <!-- login / signup modal -->
+    <div class="popup-overlay"></div>
+ <div class="cont pop-up slide-in-blurred-tr">
+            <div class="popup-close">&times;</div>
+            <div class="form sign-in">
+              <h2>Sign In</h2>
+
+              <label id = "modal-label">
+                <span>User Name</span>
+                <input type="text" name="email" id="user-name" class="input-modal"/>
+                <div class="invalid-feedback ">Enter Valid username</div>
+              </label>
+
+              <label id = "modal-label">
+                <span>Password</span>
+                <input type="password" name="password" id="user-password"  class="input-modal"/>
+                <div class="invalid-feedback">Invalid Passcode</div>
+              </label>
+              <input type="button" value="SignIn" class="btn btn-outline-primary " id="signin-btn">
+              <!-- <button class="submit sgmit" type="button" id="modal-btn">Sign In</button> -->
+              <p class="forgot-pass">Forgot Password ?</p>
+        
+              <div class="social-media">
+                <ul>
+                  <li><img src="images/facebook.png"></li>
+                  <li><img src="images/twitter.png"></li>
+                  <li><img src="images/linkedin.png"></li>
+                  <li><img src="images/instagram.png"></li>
+                </ul>
+              </div>
+            </div>
+        
+            <div class="sub-cont">
+                <div class="popup-close" onclick="closeModal()">&times;</div>
+              <div class="img">
+                <div class="img-text m-up">
+                  <h2>New here?</h2>
+                  <p>Sign up and discover great amount of new opportunities!</p>
+                </div>
+                <div class="img-text m-in">
+                  <h2>One of us?</h2>
+                  <p>If you already has an account, just sign in. We've missed you!</p>
+                </div>
+                <div class="img-btn">
+                  <span class="m-up">Sign Up</span>
+                  <span class="m-in">Sign In</span>
+                </div>
+              </div>
+              <div class="form sign-up">
+                <h2>Sign Up</h2>
+                <label id = "modal-label">
+                  <span>Name</span>
+                  <input type="text" class="input-modal" id="rg-username">
+                  <div class="invalid-feedback">This Field is required!</div>
+                </label>
+                <label id = "modal-label">
+                  <span>Email</span>
+                  <input type="email" class="usermail" class="input-modal" id="rg-mail">
+                  <div class="invalid-feedback"></div>
+                </label>
+                <label id = "modal-label">
+                  <span>Password</span>
+                  <input type="password" class="userpass" class="input-modal" id="rg-passcde">
+                  <div class="invalid-feedback"></div>
+                </label>
+                <label id = "modal-label">
+                  <span>Confirm Password</span>
+                  <input type="password" class="input-modal" id="rg-confirm">
+                  <div class="invalid-feedback">Passcode Donot match!!</div>
+                </label>
+                <input type="button" value="SignIn" class="btn btn-outline-primary " id="signup-btn">
+              </div>
+            </div>
+          </div>
+    
+   
+    
+
+    <!-- modal ends here -->
+
+
+
+    <section id="services" class="services">
+        <div class="container">
+            <h1 class="text-center mt-5 display-3 fw-bold">Our <span class="theme-text">Services</span></h1>
+            <hr class="mx-auto mb-3 w-25">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fas fa-car"></i>
+                    <h3>Car Renting</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+              </div>
+
+                <div class="box">
+                    <i class="fas fa-tools"></i>
+                    <h3>Parts repair</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+                    <!-- <input type="button" value="read more" class="btn btn-primary  readbtn"> -->
+                    
+                </div>
+
+                <div class="box">
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i>
+                    <h3>Bike Renting</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+                    <!-- <input type="button" value="read more" class="btn btn-primary readbtn"> -->
+                    
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 support</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
+                    <!-- <input type="button" value="read more" class="btn btn-primary readbtn"> -->
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- testimoial -->
+    <section id="testimonials" class="bounce-in-top">
+        <div class="heading"> <span class="theme-text">Testimonials</span></div>
+        <div class="wrapper">
+            <div class="container">
+                <div class="profile">
+                    <div class="imgBox">
+                        <img src="image/t-img/img1.jpg">
+                    </div>
+                    <h2>David Huston</h2>
+                </div>
+                <p><span class="fa fa-quote-left left"></span>
+                    Obiviously it's natural to be skeptic about anything renting cars
+                    from peolple you ..on't really have family or a friendship relationship with.
+                    But "Rent Smart" makes you feel like family when it comes to their services.
+                    They have cool and affordable rates. 
+                    <span class="fa fa-quote-right right"></span></p>
+                <div class="social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="profile">
+                    <div class="imgBox">
+                        <img src="image/t-img/img2.jpg">
+                    </div>
+                    <h2>Maite Perroni</h2>
+                </div>
+                <p><span class="fa fa-quote-left left"></span>Rent Smart provides wholistic services and solutions to individuals and businesses in the area of vehicle leasing/rental, recruitment and training for support staff, driver outsourcing, fleet management and transport services. We develop skills, resources, knowledge and invent 
+<span class="fa fa-quote-right right"></span></p>
+                <div class="social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="profile">
+                    <div class="imgBox">
+                        <img src="image/t-img/img3.jpg">
+                    </div>
+                    <h2>George Adjetey</h2>
+                </div>
+                <p><span class="fa fa-quote-left left"></span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam neque reiciendis sit. Incidunt tempore vitae aliquam alias voluptatem accusantium magnam eos harum ipsam modi, quisquam illo facilis
+                    suscipit maxime obcaecati laboriosam cum blanditiis ducimus ut consectetur id mollitia aperiam rerum.<span class="fa fa-quote-right right"></span></p>
+                <div class="social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+
+    </section>
+
+
+
+    <!-- footer starts here -->
+    <a href="#bdy" class="material-icons floating-btn heartbeat">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+     </a>
+
+    <!-- <footer>
+        <div class="footer-content">
+            <h3>Dyon Rentals</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sit optio enim nemo explicabo consequatur, aliquid accusamus itaque pariatur odit ratione cupiditate delectus excepturi repellendus atque ducimus tempora corporis veritatis.</p>
+            <ul class="social">
+                <li><a href="#"><i class="fa fa-plus-circle ico" aria-hidden="true"></i></a></li>
+                <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https//google.com"><i class="fab fa-google-plus"></i></a></li>
+                <li><a href="youtube.com"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-botton">
+           
+            <p>
+
+                All Right Reserved © 2022 Designed by Alpha
+            </p>
+            </div>
+        <div class="admin-log">
+            <a href="admin.html">
+                <p class="ad-text">A</p>
+            </a>
+        </div>
+    </footer> -->
+
+        
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <p>Copyright &copy; 2022 Group 7, Ltd.
+            
+            - Design: <a rel="nofollow noopener" href="about.html" target="_blank">Group 7 </a></p>
+           
+           
+
+            <div class="admin-log">
+              <a href="admin.html">
+                  <p class="ad-text">A</p>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    </div>
+    </footer>
+
+
+
+    <script src="Js/signup.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Js/script.js"></script>
+    <script src="Js/modal-script.js"></script>
+    <script src="Js/userLogin.js"></script>
+</body>
+
+</html>

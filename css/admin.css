@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+:root{
+    --yellow:#01B0D3;
+    --light-yellow:#ffee80;
+    --black:#242333;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --border:.1rem solid rgba(0,0,0,.1);
+   
+}
+
+*{
+    padding: 0;
+	font-family: 'poppins',sans-serif;
+	box-sizing: border-box;
+    margin: 0;
+  
+}
+
+
+body{
+ 
+  background: url(../image/feature-bg.jpg) fixed;
+}
+header{
+    margin-bottom: 50px;
+}
+
+
+#log{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    background: rgba(36, 35, 51, 0.73);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(18.8px);
+-webkit-backdrop-filter: blur(18.8px);
+border: 1px solid rgba(36, 35, 51, 0.31);
+}
+
+p.headtxt{
+    margin-left: 15px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.img{
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 130px;
+    height: 120px;
+    border-radius: 60px;
+}
+.form{
+    margin-top: -45px;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: 150px;
+    
+}
+#adlgbtn{
+   margin-bottom: 5px;
+  margin-left: 125px;
+  margin-top: 13px;
+  width: 200px;
+}
+#ademail{
+    margin-top: -3px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  }
+  
+  #adpassword{
+   
+    width: 300px;
+  margin: 0 auto;
+  }
+  
+  #sub_btn{
+      margin-top: 20px;
+  }
+  

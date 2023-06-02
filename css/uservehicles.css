@@ -1,0 +1,26 @@
+.modal-header h3{
+    color: rgb(39, 37, 37);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid rgb(48, 217, 247);
+}
+#check-txt{
+    margin-left: -6px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+}
+#book-btn{
+    width: 300px;
+    margin-left: 18%;
+}
+#modal-form label{
+    font-size: 15px;
+    margin-left: -1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* #modal-form input[type = "email"]{
+    width: 100px;
+} */
